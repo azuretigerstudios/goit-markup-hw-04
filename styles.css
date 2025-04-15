@@ -4,6 +4,14 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    content: '';
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    height: 4px;
+    background-color: #404bbf;
+    border-radius: 2px;
 }
 
 body {
@@ -44,7 +52,7 @@ button {
 
 .header {
     border-bottom: 1px solid #e7e9fc;
-    box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 2px 1px 0 rgba(46, 47, 66, 0.08);
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
     background: #fff;
 }
 
@@ -501,8 +509,6 @@ button {
     margin-bottom: 16px;
     display: inline-block;
 }
-
-/* Footer bölümünde logo linkine hover efekti eklendi */
 
 .footer-logo:focus {
     background-color: #31d0aa;
